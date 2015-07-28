@@ -1,59 +1,58 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/app_title"
         android:id="@+id/textView"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+     />
 
     <Button
         style="@style/AppButtonStyle"
-        android:text="SPOTIFY STREAMER"
+        android:text="@string/spotify_btn"
         android:id="@+id/spotifyBtn"
-        android:layout_below="@id/textView"
-        android:layout_marginTop="50dp"
-        />
+        android:layout_marginTop="50dp"/>
 
     <Button
         style="@style/AppButtonStyle"
-        android:text="SCORE APPS"
-        android:id="@+id/scoreBtn"
-        android:layout_below="@id/spotifyBtn" />
+        android:text="@string/score_btn"
+        android:id="@+id/scoreBtn"/>
 
     <Button
         style="@style/AppButtonStyle"
-        android:text="LIBRARY APP"
-        android:id="@+id/libraryByn"
-        android:layout_below="@id/scoreBtn" />
+        android:text="@string/library_btn"
+        android:id="@+id/libraryByn"/>
 
     <Button
         style="@style/AppButtonStyle"
-        android:text="BUILD IT BIGGER"
-        android:id="@+id/biggerBtn"
-        android:layout_below="@id/libraryByn" />
+        android:text="@string/bigger_btn"
+        android:id="@+id/biggerBtn"/>
 
     <Button
         style="@style/AppButtonStyle"
-        android:text="XYZ READER"
-        android:id="@+id/xyzBtn"
-        android:layout_below="@id/biggerBtn" />
+        android:text="@string/xyz_btn"
+        android:id="@+id/xyzBtn"/>
 
     <Button
         style="@style/AppButtonStyle"
-        android:text="CAP STONE： MY OWN APP"
+        android:text="@string/capstone_btn"
         android:id="@+id/capStoneBtn"
-        android:layout_below="@id/xyzBtn"
         android:background="#F44336"
         android:textColor="@android:color/white"/>
 
-</RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">Project0</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_title">My Nanodegree Apps!</string>
+
+    <string name="spotify_btn">SPOTIFY STREAMER</string>
+    <string name="spotify_btn_toast">This button will launch my Spotify streamer app</string>
+
+    <string name="score_btn">SCORE APPS</string>
+    <string name="score_btn_toast">This button will launch my score app</string>
+
+    <string name="library_btn">LIBRARY APP</string>
+    <string name="library_btn_toast">This button will launch my library app</string>
+
+    <string name="bigger_btn">BUILD IT BIGGER</string>
+    <string name="bigger_btn_toast">This button will launch my build it bigger app</string>
+
+    <string name="xyz_btn">XYZ READER</string>
+    <string name="xyz_btn_toast">This button will launch my xyz reader app</string>
+
+    <string name="capstone_btn">CAP STONE： MY OWN APP</string>
+    <string name="capstone_btn_toast">This button will launch my capstone app</string>
+
 </resources>
